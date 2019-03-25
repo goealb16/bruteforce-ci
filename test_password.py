@@ -3,7 +3,6 @@ from bruteforce2.Password import Password
 
 
 class TestPassword(TestCase):
-
     def test_check1(self):
         pwd = Password("abc")
         self.assertEqual(True, pwd.check("abc"))
